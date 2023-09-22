@@ -37,3 +37,9 @@ The Go toolchain [automatically executes](https://pkg.go.dev/cmd/go#hdr-Compile_
 these scripts in they are available in the path.
 The runtime can be chosen using the `GOWASIRUNTIME` environment variable, and defaults to `wasmtime`.
 Available options are `wasmtime`, `wazero`, `wasmedge` and `wasmer`.
+
+## Further reading
+
+The official blog post about WASI is a great resource: https://go.dev/blog/wasi
+
+The proposals that led to the wasip1 implementation contain more of the nitty gritty details: https://go.dev/issue/38248, https://go.dev/issue/58141, https://go.dev/issue/59149
