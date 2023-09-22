@@ -9,6 +9,8 @@ Go 1.21
 
 `http` requires a runtime that supports the [WasmEdge](https://github.com/WasmEdge/WasmEdge) socket extension to `wasi_snapshot_preview1`, e.g. WasmEdge or [wasirun](https://github.com/stealthrocket/wasi-go).
 
+`fastly` requires the [Viceroy](https://github.com/fastly/Viceroy) or [Fastly](https://developer.fastly.com/learning/compute/testing/#running-a-local-testing-server) CLI locally.
+
 ## Running
 
 To build any of the demos, run `make` followed by the folder name:
